@@ -1,9 +1,9 @@
 === Comments Count Filter ===
 Contributors: Ainun Nazieb
 Tags: posts, comments
-Tested up to: 2.7
+Tested up to: 3.0
 Requires at least: Maybe All
-Stable tag: 1.0
+Stable tag: 1.1
 
 Makes the comments from post author not to be counted
 
@@ -16,3 +16,11 @@ Note: the post author must login before giving a comment.
 
 1. Upload `comments_count_filter.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Changelog ==
+
+= 1.1 =
+* Now filter emails too, so post author doesn't need to login before posting comment to get filtered
+
+= 1.0 =
+* Initial release
